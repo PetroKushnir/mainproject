@@ -2,7 +2,39 @@
 <html>
     <head>
         <body>
+            <form method="GET" action="">
+            <fieldset>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" value="type your email" required>
+                
+                <label for="password">Password:</label>
+            <input type="password" id="password" required><br>
+               
+               <p> <label for="First Name">First Name</label>
+                <input id="First Name" type="text" value="type your First Name" required><br></p>
+                 
+               <p> <label for="Second Name">Second Name</label>
+                <input id="Second Name" type="text" value="type your Second Name" required><br></p>
+                
+                <label for="Trade Mark">Trade Mark:</label>
+            <input id="TM" type="text" required pattern="[A-Z][0-9]" title="Sample:Zalman ">
+            <br>
             
+            <br>
+            <select name="TM">
+                  <option value="volvo">Microsoft</option>
+                  <option value="saab">Apple</option>
+                  <option value="fiat">A4Tech</option>
+                  <option value="audi">Logitech</option>
+            </select>
+            <br>
+            
+            <p><input type="submit"></p>
+            
+            </fieldset> 
+                
+            </form>
         </body>
     </head>
 </html>
