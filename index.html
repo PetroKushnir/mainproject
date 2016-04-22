@@ -1,47 +1,82 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <Title>MainProjectMarkup</Title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
-        <body>
-            <form method="GET" action="">
-            
-               
-                <fieldset><label for="email">Email:</label>
-                <input type="email" id="email" value="type your email" required>
-                <legend>Login</legend>
-                <label for="password">Password:</label>
-            <input type="password" id="password" required><br>
-               </fieldset></p>
-               
-              
-                 <legend>   
-               <fieldset>PleaseFill In:
-                 
-               <p> <label for="First Name">First Name</label>
-                <input id="First Name" type="text" value="type your First Name" required><br></p>
-                 
-               <p> <label for="Second Name">Second Name</label>
-                <input id="Second Name" type="text" value="type your Second Name" required><br></p>
+    <body>
+        <section>
+            <header>
+                <nav>
+                <a href=" ">Home</a>
+                <a href=" ">Skills</a>
+                <a href=" ">Contacts</a>
+                <a href=" ">Abouts</a>
+                </nav>
+                <img src="pictures/headsearch.png" alt="headsearch" />
+            </header>
+        </section>
+        <section>
+            <h1>HEY YOU THERE, WELCOME TO MY WEBSITE!</h1>
+            <img src="pictures/cloud.jpg"  height="300" width="600" />
+        </section>
+        <section>
+                <h1>About Skills</h1>
+                <h2>Here you can find information about my skills</h2>
+                <img src="pictures/skills.jpg" height="300" width="600" />
                 
-                <label for="Trade Mark">Trade Mark:</label>
-            <input id="TM" type="text" required pattern="[A-Z][0-9]" title="Sample:Zalman ">
-            <br>
+        </section>
             
-            <br>
-            <select name="TM">
-                  <option value="volvo">Microsoft</option>
-                  <option value="saab">Apple</option>
-                  <option value="fiat">A4Tech</option>
-                  <option value="audi">Logitech</option>
-            </select>
-            <br>
-            </legend>
-            <p><input type="submit"></p>
-           
+            <section>
+            <h1>Contacts</h1>
+            <h2>Contact Information</h2>
+             If you have any questions or comments about the services please leave your feedback.<br>
+             kallebloomckwist@gmail.com<br>
+             0664528216<br>
+             Lviv, Vyhovskoho str.<br>
+            <h2>Say Hello to me!</h2>
+            <form method="GET" action="">
+            <fieldset>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="your email" required>
+                
+                <p> <label for="Name">First Name</label>
+                <input id="First Name" type="text" placeholder="your name" required><br></p>
+                <textarea name="message" rows="10" cols="40" placeholder="please fill in"></textarea>
+                <img src="pictures/letter.jpg" alt="letter" />
+                
+                <p><input type="submit"></p>
+                
             </fieldset> 
-            
             </form>
-        </body>
+            </section>
+            
+
+            <section>
+                <h1>About Me</h1>
+                <h2>Couple words about me</h2>
+                <p>Інфа</p>
+                <img src="pictures/me.jpg" alt="homeimage" height="500" width="400" />
+            </section>
+            
+        <footer>
+            2016 &copy; Created by Kushnir Petro
+            <table>
+        <tr>
+            <td>
+                <img src="pictures/facebook.png" alt="FB" height="30" width="30"/>
+            </td>
+            <td>
+                <img src="pictures/vkontakte.png" alt="Twitter" height="30" width="30"/>
+            </td>
+            <td>
+                <img src="pictures/twitter.png" alt="Instagram" height="30" width="30" />
+            </td>
+        </tr>
+    </table>
+        </footer>
+    </body>
     
 </html>

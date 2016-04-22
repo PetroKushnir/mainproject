@@ -1,0 +1,31 @@
+*{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;   
+}
+
+
+header {
+     position:relative ;
+     top: 0;
+     left: 0;
+     width: 100%;
+}
+header img{
+     top: 0;
+     left: 0;
+     height:200px;
+     width:1200px;
+}
+
+@media screen and (max-width:599px) {
+  nav li {
+    display: inline;
+  }
+}
+footer{
+    left: 0;
+    bottom: 0;
+    position: static;
+    opacity: 0.8;
+}
