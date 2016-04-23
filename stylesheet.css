@@ -18,11 +18,15 @@ header img{
      width:1200px;
 }
 
-@media screen and (max-width:599px) {
+@media screen and (max-width:999px) {
   nav li {
     display: inline;
   }
 }
+#about>img{
+    float: right
+}
+
 footer{
     left: 0;
     bottom: 0;
